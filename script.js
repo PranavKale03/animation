@@ -50,3 +50,11 @@ gsap.fromTo(
     delay: 4,
   }
 );
+
+function redirect() {
+  setTimeout(function() {
+    window.location.replace('https://nagnathfinance.in/');
+  }, 20000); // 20 seconds delay
+}
+
+redirect();
